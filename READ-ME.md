@@ -24,5 +24,9 @@ BLOCKHOUND:
 HOVERFLY:
 	-  Provides an easy way of creating real API stubs/simulations.
 	
+SPRING CLOUD GATEWAY:
+	- Used in place of zuul 
+	- reactive in nature and runs on Netty
+	
 	
 @EnableR2dbcRepositories - Annotation to activate reactive relational repositories using R2DBC. 	
