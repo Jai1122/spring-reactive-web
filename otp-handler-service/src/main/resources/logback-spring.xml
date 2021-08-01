@@ -26,7 +26,7 @@
         <appender-ref ref="STDOUT"/>
         <discardingThreshold>0</discardingThreshold>
         <queueSize>1</queueSize>
-        <includeCallerDate>false</includeCallerDate>
+        <includeCallerData>false</includeCallerData>
         <neverBlock>true</neverBlock>
     </appender>
 
@@ -34,7 +34,7 @@
         <discardingThreshold>0</discardingThreshold>
         <appender-ref ref="FILE"/>
         <queueSize>1</queueSize>
-        <includeCallerDate>false</includeCallerDate>
+        <includeCallerData>false</includeCallerData>
         <neverBlock>true</neverBlock>
     </appender>
 
