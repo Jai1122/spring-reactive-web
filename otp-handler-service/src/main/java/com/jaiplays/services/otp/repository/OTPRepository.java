@@ -12,7 +12,7 @@ public interface OTPRepository extends ReactiveCrudRepository<OTP, Long> {
 
     Flux<OTP> findByCustomerId(Long customerId);
 
-    Mono<OTP> findByIdAndStatus(Long otpId, OTPStatus status);
+    //  Mono<OTP> findByIdAndStatus(Long otpId, OTPStatus status);
 
-    Mono<OTP> findByIdAndPinAndStatus(Long otpId, Integer pin, OTPStatus status);
+    //  Mono<OTP> findByIdAndPinAndStatus(Long otpId, Integer pin, OTPStatus status);
 }

@@ -6,7 +6,6 @@
 		<groupId>com.jaiplays.services</groupId>
 		<artifactId>spring-reactive</artifactId>
 		<version>1.0.0</version>
-		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.jaiplays.services</groupId>
 	<artifactId>notification-service</artifactId>

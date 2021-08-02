@@ -14,7 +14,7 @@ import javax.validation.Valid;
 import java.util.concurrent.TimeUnit;
 
 @RestController
-@RequestMapping("/notification")
+@RequestMapping("/notifications")
 @RequiredArgsConstructor
 public class NotificationController {
 

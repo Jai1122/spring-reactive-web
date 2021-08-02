@@ -38,7 +38,7 @@ services:
       - POSTGRES_DB=test
       - POSTGRES_USER=jai
       - POSTGRES_PASSWORD=passepartout
-      - NOTIFICATION_SERVICEE_HOST=notification-service
+      - NOTIFICATION_SERVICE_HOST=notification-service
       - NOTIFICATION_SERVICE_PORT=8005
       - NUMBER_INFORMATION_SERVICE_HOST=number-information-service
       - NUMBER_INFORMATION_SERVICE_PORT=8006
