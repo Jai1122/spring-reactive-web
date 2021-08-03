@@ -19,7 +19,7 @@ FLYWAY-CORE:
 	- Database migration by Java programming code.
 	
 BLOCKHOUND:
-	- Allows to check whether a blocking call occurs in a thread it shouldn’t happen.
+	- Allows to check whether a blocking call occurs in a thread it shouldnâ€™t happen.
 	
 HOVERFLY:
 	-  Provides an easy way of creating real API stubs/simulations.
@@ -29,4 +29,8 @@ SPRING CLOUD GATEWAY:
 	- reactive in nature and runs on Netty
 	
 	
-@EnableR2dbcRepositories - Annotation to activate reactive relational repositories using R2DBC. 	
+@EnableR2dbcRepositories - Annotation to activate reactive relational repositories using R2DBC. 
+
+mvn clean verify
+
+docker-compose up --build
